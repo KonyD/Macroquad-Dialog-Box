@@ -30,7 +30,7 @@ async fn main() {
     let mut dialogBox = DialogBox {
         x: 25.0,
         y: 340.0,
-        dialog: vec!["Hello!".to_string(), "I'm TravelerInTheDark.".to_string()],
+        dialog: vec!["Hello!".to_string(), "I'm KonyDev.".to_string()],
         img: load_texture("assets/images/dialog_box.png").await.unwrap(),
         strIndex: 0,
     };
